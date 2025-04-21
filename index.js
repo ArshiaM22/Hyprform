@@ -6,6 +6,7 @@ import Image from "next/image";
 export default function Hyprform() {
   return (
     <div className="min-h-screen bg-white text-black font-sans">
+      {/* Hero Section */}
       <div className="flex flex-col items-center justify-center text-center py-20 px-4 bg-black text-white">
         <Image
           src="/hyprform-logo.png"
@@ -21,7 +22,7 @@ export default function Hyprform() {
           Get Started
         </Button>
       </div>
-      {/* ... rest of the content (omitted here for brevity) ... */}
+      {/* The rest of the page continues as in canvas... */}
     </div>
   );
 }
